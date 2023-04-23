@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.15em;
+
+}
+
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+
+
+.search-box {
+  display: flex;
+}
+
+.search-box input[type="text"] {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.search-box button[type="submit"] {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.secondary-nav {
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.secondary-nav .menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondary-nav .menu li:last-child {
+  margin-right: 0;
+}
+
+.secondary-nav .menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+  }
+
+  .menu {
+    margin-bottom: 20px;
+    flex-basis: 100%;
+  }
+
+  .menu li {
+    margin-right: 0;
+  }
+
+  .search-box {
+    margin-bottom: 20px;
+  }
+}
+
+ 
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1;
+}
+
+/* Left side sign-in form */
+div[style="float:left;width:50%;border-right:1px solid #000;height:600px;"] {
+  padding: 20px;
+  text-align:center;
+  
+  
+}
+
+div[style="float:left;width:50%;border-right:1px solid #000;height:600px;"] h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+div[style="float:left;width:50%;border-right:1px solid #000;height:600px;"] select,
+div[style="float:left;width:50%;border-right:1px solid #000;height:600px;"] input[type="email"],
+div[style="float:left;width:50%;border-right:1px solid #000;height:600px;"] input[type="password"] {
+  display: block;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin:0 auto;
+}
+
+div[style="float:left;width:50%;border-right:1px solid #000;height:600px;"] button[type="submit"],
+div[style="float:left;width:50%;border-right:1px solid #000;height:600px;"] button {
+  display: block;
+  width: 50%;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin:0 auto;
+  margin-bottom: 10px;
+
+}
+
+div[style="float:left;width:50%;border-right:1px solid #000;height:600px;"] hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 30px 0;
+  
+}
+
+div[style="float:left;width:50%;border-right:1px solid #000;height:600px;"] small {
+  font-size: 12px;
+  color: #ccc;
+  
+}
+
+div[style="float:left;width:50%;border-right:1px solid #000;height:600px;"] button img {
+  vertical-align: middle;
+  margin-right: 10px;
+  
+}
+
+div.right-side {
+  float: right;
+  width: 50%;
+  padding: 20px;
+  text-align:center;
+
+}
+
+div.right-side h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+div.right-side select,
+div.right-side input[type="email"],
+div.right-side input[type="password"],
+div.right-side input[type="text"] {
+  display: block;
+  margin-bottom: 10px;
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  
+}
+
+.checkbox-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  
+  
+}
+
+.column {
+  flex: 1;
+  
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.register-btn {
+  display: block;
+  width: 50%;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  
+}
+/* right-side container */
+.right-side {
+  float: right;
+  width: 50%;
+  height: 600px;
+  padding: 0 20px;
+}
+
+/* form group styles */
+.form-group {
+  margin-bottom: 20px;
+  
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="text"],
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin:0 auto;
+}
+
+/* checkbox group styles */
+.checkbox-group {
+  margin-bottom: 20px;
+  margin: 16px auto;
+	text-align: center;
+	display: block;
+
+}
+
+.column {
+  flex: 1;
+  text-align: left;
+	display: inline-block;
+  
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.checkbox-group label {
+  vertical-align: middle;
+  
+}
+
+/* button styles */
+button[type="submit"],
+button.register-btn {
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin:0 auto;
+
+
+
+}
+
+button[type="submit"]:hover,
+button.register-btn:hover {
+  background-color: #fff;
+  color: #000;
+  
+}
+
+/* small text styles */
+.small-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* section styles */
+.section {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+.section-headline {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
